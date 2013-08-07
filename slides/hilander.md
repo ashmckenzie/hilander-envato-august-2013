@@ -37,17 +37,19 @@
 * Leaderboard for teams
 * Rewards members with points & badges (and glory)
 * System to influence positive change
+* A bit of fun
 
-!SLIDE classes="small-bullets"
+!SLIDE classes="small-bullets-x2"
 
 # Hilander history
 
-## Initial aims
+## Initial goals
 
 * Improve frequency of code pushes
 * Reduce CI build failures
 * Reward awesome work with points & badges
 * Create a (healthy) competitive spirit
+* Focus on positive reinforcement
 * Try out new tech - Rails 4, Ruby 2
 
 !SLIDE classes="small-bullets"
@@ -61,16 +63,98 @@
 * Great way to explore new possibilities
 * Many awesome 'hacks' now running in production
 
-!SLIDE
+!SLIDE classes="small-bullets"
 
 # Tech
 
 * Rails 4
-* On Heroku (for now)
+* Runs on Heroku
+* Just works&trade;
+
+!SLIDE classes="small-bullets-x2"
+
+# Integrated services
+
+* GitHub
+* Jenkins CI
+* PagerDuty
+* Code Climate
+* Twitter, Instagram
+* Racquet.io
+
+!SLIDE classes="small-bullets-x2"
+
+# Racquet.io API
+
+![Racquet.io](/assets/images/racquet-io.png)
+
+!SLIDE classes="small-bullets" language="haml"
+
+%h1 Points & badges
+
+%ul
+  %li Points assigned to a service (1 by default)
+  %li Badges awarded for reaching a set number of points
+
+%div.badges
+  %div
+    %img{ src: "/assets/images/first_time.png" }
+    %p First timer
+
+  %div
+    %img{ src: "/assets/images/1_github_push.png" }
+    %p 1 GitHub push
+
+  %div
+    %img{ src: "/assets/images/100_github_pushes.png" }
+    %p 100 GitHub pushes
+
+  %div
+    %img{ src: "/assets/images/bounty.png" }
+    %p Bounty
+
+  %div
+    %img{ src: "/assets/images/hipster.png" }
+    %p Hipster
+
+!SLIDE classes="small-bullets"
+
+# Push flow
+
+<br/>
+
+* GitHub, Jenkins
+
+![How it work](/assets/images/push-diagram.png)
+
+
+!SLIDE classes="small-bullets"
+
+# Pull flow
+
+* Thor tasks
+* Twitter, Code Climate, Racquet.io
+* Not ideal, looking into ways to improve
 
 !SLIDE
 
 # Demo
+
+* Leaderboard
+* Bounties
+* User dashboard
+* Points & badges
+* Stats
+
+!SLIDE classes="small-bullets"
+
+# Challenges
+
+* Balanced system
+* Implementing new features
+* Continued focus on positive reinforcement
+* Shameless point grabbing
+* Cheating!
 
 !SLIDE classes="small-bullets"
 
@@ -78,7 +162,7 @@
 
 ## Clan support
 
-* &lt;your-team&gt;.hilander.io
+* &lt;your-clan&gt;.hilander.io
 
 !SLIDE classes="small-bullets"
 
@@ -88,6 +172,18 @@
 
 * Public GitHub repo
 * Run Hilander on your platform
+
+!SLIDE classes="small-bullets"
+
+# Future
+
+* Re-design!
+* Easy service integration
+* Integrate more services / API's
+* Open up Hilander with a robust API
+* Point sacrificing / co-ordinated sacrificing
+* Score multipliers
+* Powerups
 
 !SLIDE
 

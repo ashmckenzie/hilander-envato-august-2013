@@ -177,9 +177,9 @@
 
 # Future
 
-* Re-design!
-* Easy service integration
+* Re-design coming!
 * Integrate more services / API's
+* Easier service integration
 * Open up Hilander with a robust API
 * Point sacrificing / co-ordinated sacrificing
 * Score multipliers

@@ -1,0 +1,10 @@
+---
+decks:
+  -
+    name: Hilander
+    description: Hilander - There can be only one!
+    author: Ash McKenzie
+    slug: hilander
+    theme: hilander
+    slides:
+      - hilander.md

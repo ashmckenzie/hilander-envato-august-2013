@@ -1,0 +1,5 @@
+.sass-cache
+.rbenv-version
+.DS_Store
+static
+slides/old.md
